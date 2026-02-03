@@ -32,7 +32,7 @@ gdjs.Cena_9504Code.GDCursorObjects2= [];
 gdjs.Cena_9504Code.GDCursorObjects3= [];
 
 
-gdjs.Cena_9504Code.asyncCallback19553020 = function (runtimeScene, asyncObjectsList) {
+gdjs.Cena_9504Code.asyncCallback13360764 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Cena_9504Code.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("btn_errado_01"), gdjs.Cena_9504Code.GDbtn_9595errado_959501Objects2);
 
@@ -51,14 +51,14 @@ gdjs.Cena_9504Code.eventsList0 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Cena_9504Code.localVariables);
 for (const obj of gdjs.Cena_9504Code.GDbtn_9595errado_959501Objects1) asyncObjectsList.addObject("btn_errado_01", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Cena_9504Code.asyncCallback19553020(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Cena_9504Code.asyncCallback13360764(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Cena_9504Code.asyncCallback19769812 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Cena_9504Code.asyncCallback13364708 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Cena_9504Code.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("btn_errado_02"), gdjs.Cena_9504Code.GDbtn_9595errado_959502Objects2);
 
@@ -77,14 +77,14 @@ gdjs.Cena_9504Code.eventsList1 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Cena_9504Code.localVariables);
 for (const obj of gdjs.Cena_9504Code.GDbtn_9595errado_959502Objects1) asyncObjectsList.addObject("btn_errado_02", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Cena_9504Code.asyncCallback19769812(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Cena_9504Code.asyncCallback13364708(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Cena_9504Code.asyncCallback19745196 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Cena_9504Code.asyncCallback13368428 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Cena_9504Code.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("background"), gdjs.Cena_9504Code.GDbackgroundObjects3);
 gdjs.copyArray(asyncObjectsList.getObjects("btn_certo"), gdjs.Cena_9504Code.GDbtn_9595certoObjects3);
@@ -124,14 +124,14 @@ asyncObjectsList.backupLocalVariablesContainers(gdjs.Cena_9504Code.localVariable
 /* Don't save btn_certo as it will be provided by the parent asyncObjectsList. */
 /* Don't save btn_errado_01 as it will be provided by the parent asyncObjectsList. */
 /* Don't save btn_errado_02 as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Cena_9504Code.asyncCallback19745196(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Cena_9504Code.asyncCallback13368428(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Cena_9504Code.asyncCallback19745124 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Cena_9504Code.asyncCallback13368332 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Cena_9504Code.localVariables);
 
 { //Subevents
@@ -150,14 +150,14 @@ asyncObjectsList.backupLocalVariablesContainers(gdjs.Cena_9504Code.localVariable
 for (const obj of gdjs.Cena_9504Code.GDbtn_9595certoObjects1) asyncObjectsList.addObject("btn_certo", obj);
 for (const obj of gdjs.Cena_9504Code.GDbtn_9595errado_959501Objects1) asyncObjectsList.addObject("btn_errado_01", obj);
 for (const obj of gdjs.Cena_9504Code.GDbtn_9595errado_959502Objects1) asyncObjectsList.addObject("btn_errado_02", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Cena_9504Code.asyncCallback19745124(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Cena_9504Code.asyncCallback13368332(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Cena_9504Code.asyncCallback19566772 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Cena_9504Code.asyncCallback13370484 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Cena_9504Code.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Cena_05", false);
 }gdjs.Cena_9504Code.localVariables.length = 0;
@@ -171,7 +171,7 @@ gdjs.Cena_9504Code.eventsList4 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Cena_9504Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Cena_9504Code.asyncCallback19566772(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Cena_9504Code.asyncCallback13370484(runtimeScene, asyncObjectsList)));
 }
 }
 
